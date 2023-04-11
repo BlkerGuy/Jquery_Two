@@ -1,10 +1,13 @@
+section {
+  background-color: rgba(128, 128, 128, 0.155);
+  height: 100%;
+}
+
 .general {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.general .bg-sect {
-  background-color: rgba(128, 128, 128, 0.155);
+  width: 100%;
 }
 .general .bg-sect .col-6-custom {
   display: flex;
@@ -22,14 +25,17 @@
 .carousell .card-size {
   width: 20%;
   background-color: white;
-  border: 1px solid red;
   border-radius: 5%;
 }
 .carousell .card-size:nth-child(2) {
   margin: 0 20px;
 }
 .carousell .card-size img {
-  width: 250px;
+  width: 100%;
+}
+.carousell .card-size img:hover {
+  border: 2px solid;
+  border-radius: 5%;
 }
 
 .tags a {
@@ -67,4 +73,6 @@
 .buttons button {
   border: none;
   font-weight: 500;
+  border-radius: 10px;
+  padding: 10px 20px;
 }/*# sourceMappingURL=style.css.map */
