@@ -1,0 +1,100 @@
+.general{
+    // height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+    .bg-sect{
+        background-color: rgba(128, 128, 128, 0.155);
+
+
+        .col-6-custom {
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 100%;
+                height: 85%;
+                padding: 10px;
+            }
+        }
+
+        .info-text{
+            color: gray;
+        }
+    }
+
+    
+}
+
+.carousell{
+
+    .card-size{
+    width: 20%;
+    background-color: white;
+    border: 1px solid red ;
+    border-radius: 5%;
+
+    &:nth-child(2){
+        margin: 0 20px;
+    }
+
+    img{
+        width: 250px;
+        // height: 200px;
+    }}
+    
+    
+  
+}
+
+.tags {
+
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: #0d6dfd57;
+        padding: 7px 10px;
+        border-radius: 5px;
+
+        &:nth-child(2) {
+            margin-left: 8px;
+        }
+
+        &:nth-child(3) {
+            margin: 0 8px;
+        }
+    }
+}
+
+.share {
+
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: #0d6dfd57;
+        padding: 2px 7px;
+        border-radius: 100px;
+
+        &:nth-child(2) {
+            margin-left: 8px;
+        }
+
+        &:nth-child(3) {
+            margin: 0 8px;
+        }
+    }
+}
+
+.buttons{
+    display: flex; 
+    justify-content: space-evenly;
+    
+    
+    button{
+    border:none;
+    font-weight: 500;
+
+    }
+}
+
