@@ -2,21 +2,8 @@
 
 $(function () {
     $("#active").css({
-        //   width: "200px",
-        //   margin: "20px",
         cursor: 'zoom-in'
     });
-
-    // let newArray = Array.from($("img"));
-
-    // newArray.forEach((element, index) => {
-    //   if (index % 2 == 0) {
-    //     element.style.float = "right";
-    //   } else {
-    //     element.style.float = "left";
-    //   }
-    // });
-
 
     $("img").attr("title", "View");
 

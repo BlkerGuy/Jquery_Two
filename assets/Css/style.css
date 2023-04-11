@@ -17,6 +17,7 @@ section {
   width: 100%;
   height: 85%;
   padding: 10px;
+  background-color: white;
 }
 .general .bg-sect .info-text {
   color: gray;
@@ -26,6 +27,7 @@ section {
   width: 20%;
   background-color: white;
   border-radius: 5%;
+  margin-left: 10px;
 }
 .carousell .card-size:nth-child(2) {
   margin: 0 20px;
